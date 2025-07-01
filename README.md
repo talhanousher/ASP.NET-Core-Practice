@@ -94,8 +94,8 @@ Validation & DTOs
 Code organization & architecture
 
 👤 Author
-Built with ❤️ by [Your Name]
-GitHub: github.com/yourusername
+Built with ❤️ by Talha Nousher Ali
+GitHub: github.com/talhanousher
 
 
 ---
