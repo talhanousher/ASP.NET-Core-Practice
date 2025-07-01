@@ -1,82 +1,113 @@
-﻿# Task API
+﻿# Calculator Solution (.NET Learning Projects)
 
-A simple ASP.NET Core Web API that lets you manage tasks with full CRUD operations.  
-Built with clean architecture using services, DTOs, and validation.
-
----
-
-## 🚀 Features
-
-- ✅ Create, Read, Update, Delete (CRUD) tasks
-- ✅ Input validation with Data Annotations
-- ✅ Clean architecture using Repository/Service pattern
-- ✅ DTOs for API contracts
-- ✅ Swagger UI for testing endpoints
-- ✅ Ready for Entity Framework Core integration
+This repository contains a collection of beginner-to-intermediate level C#/.NET projects created as part of a structured learning journey.  
+Each project focuses on different core concepts of C#, OOP, and ASP.NET Core Web APIs.
 
 ---
 
-## 🧱 Tech Stack
+## 📦 Projects Included
 
-- ASP.NET Core (.NET 6/8)
-- C#
-- Swagger / OpenAPI
-- In-memory storage (replaceable with DB later)
+### 1. 🧮 Calculator (Console App)
+A basic console calculator to perform simple arithmetic operations.
 
----
+- 📘 Concepts:
+  - Console input/output
+  - Type conversion
+  - Control flow (`switch`, `if`)
+  - Loops & program structure
 
-## 📂 Project Structure
-
-TaskApi/
-├── Controllers/
-│ └── TaskController.cs
-├── DTOs/
-│ ├── CreateTaskDto.cs
-│ └── UpdateTaskDto.cs
-├── Models/
-│ └── TaskItem.cs
-├── Services/
-│ ├── ITaskService.cs
-│ └── TaskService.cs
-├── Program.cs
-├── README.md
-└── .gitignore
-
+- ✅ Bonus Features:
+  - Looping support for repeated calculations
+  - Operation history tracking
 
 ---
 
-## 🧪 Testing the API
+### 2. ✅ TaskManager (Console App with OOP)
+A console-based task manager demonstrating Object-Oriented Programming in action.
 
-After running the project:
-
-1. Navigate to: `https://localhost:5001/swagger`
-2. Test these endpoints:
-   - `GET /api/task`
-   - `POST /api/task`
-   - `PUT /api/task/{id}`
-   - `DELETE /api/task/{id}`
+- 📘 Concepts:
+  - Classes, objects, properties, and methods
+  - `List<T>` for task storage
+  - CRUD-like operations via console
+  - Clean separation of concerns
 
 ---
 
-## 🛠️ How to Run
+### 3. 🌐 TaskApi (ASP.NET Core Web API)
+A full-featured RESTful API built with ASP.NET Core.
+
+- 📘 Concepts:
+  - Controllers and routing
+  - Models and DTOs
+  - Data annotations and validation
+  - Service/Repository pattern
+  - Swagger/OpenAPI for testing
+  - Ready for EF Core & database integration
+
+- ✅ Endpoints:
+  - `GET /api/task`
+  - `POST /api/task`
+  - `PUT /api/task/{id}`
+  - `DELETE /api/task/{id}`
+
+---
+
+## 🚀 How to Run the Solution
+
+### Prerequisites
+- [.NET SDK 6/7/8](https://dotnet.microsoft.com/download)
+- Visual Studio 2022 or newer
+
+### Run Individual Projects
 
 ```bash
-# Restore dependencies
-dotnet restore
+# Navigate to project folder
+cd TaskApi
 
-# Run the app
+# Restore and run
+dotnet restore
 dotnet run
 
-Or just hit ▶️ in Visual Studio.
+Or, open the entire Calculator.sln solution in Visual Studio and run any project from the Solution Explorer.
 
-📦 Coming Soon
-✅ EF Core Integration (SQLite / SQL Server)
+Calculator.sln
+│
+├── Calculator/            # Console app: Basic calculator
+├── TaskManager/           # Console app: OOP task management
+├── TaskApi/               # ASP.NET Core Web API project
+│   ├── Controllers/
+│   ├── DTOs/
+│   ├── Models/
+│   └── Services/
+└── README.md
 
-✅ Async Methods
+By completing these projects, you will have practiced:
 
-✅ Real database and persistence
+C# fundamentals
 
-✅ Unit Testing
+OOP concepts
 
-🧑‍💻 Author
-Made by Talha Nousher Ali
+ASP.NET Core APIs
+
+Validation & DTOs
+
+Code organization & architecture
+
+👤 Author
+Built with ❤️ by [Your Name]
+GitHub: github.com/yourusername
+
+
+---
+
+## 🛠️ Next Steps
+
+- Paste this `README.md` into the root of your repo (same level as `Calculator.sln`)
+- Rename `Your Name` and GitHub links as needed
+- Run `git add README.md && git commit -m "Add root README for solution"` and push
+
+---
+
+Would you like:
+- A separate `README.md` inside each project folder (`TaskApi`, `TaskManager`, etc.)?
+- Help preparing for Day 8 (Entity Framework Core)?
