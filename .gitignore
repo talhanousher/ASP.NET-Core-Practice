@@ -1,0 +1,61 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+.vs/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# dotnet secrets & local config
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# NPM
+node_modules/
+
+# Publish artifacts
+*.Publish.xml
+*.publishsettings
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Entity Framework
+Migrations/
+
+# JetBrains Rider
+*.sln.iml
+
+# Local DB
+*.db
+*.mdf
+*.ldf
+
+# Others
+*.swp
+*.bak
+*.tmp
+*.vspscc
+*.vssscc
+_ReSharper*/
